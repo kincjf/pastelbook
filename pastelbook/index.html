@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>MAIN Project</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <!--    <link rel="shortcut icon" href="img/icon.png">
+        <link rel="apple-touch-icon" href="img/icon.png">
+        <link rel="apple-touch-startup-image" href="img/startup.png">-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="stylesheet" href="./framework/jquery_mobile/jquery.mobile-1.4.0.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./framework/jquery.jscrollpane.css"/>
+    <link rel="stylesheet" href="./framework/custom/custom.css"/>
+    <style type="text/css">
+        .tablist-left {
+            display: inline-block;
+        }
+
+        .tablist-content {
+            width: 60%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 5%;
+        }
+    </style>
+</head>
+
+<body>
+<div data-role="page" id="demo-page" data-fullscreen="true">
+    <div data-role="header">
+        <h1>PastalBook</h1>
+        <a href="#left_panel" data-icon="bars" data-iconpos="notext" data-shadow="false"
+           data-iconshadow="false">Menu</a>
+        <a href="#exit_project" data-icon="delete" data-iconpos="notext">Exit</a>
+    </div>
+    <!-- /header -->
+    <div data-role="content" class="ui-content">
+        <div class="article">
+            <!--<p><a href="#right-panel" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-mini">Share</a></p>-->
+        </div>
+        <!-- /article -->
+    </div>
+    <!-- /content -->
+    <!-- left panel -->
+    <div data-role="panel" id="left_panel">
+        <ul data-role="listview">
+            <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+            <li data-role="collapsible" data-inset="false" data-iconpos="right">
+                <h3>관리</h3>
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#">프로젝트 저장</a></li>
+                    <li><a href="#">프로젝트 내보내기</a></li>
+                    <li><a href="#">인쇄</a></li>
+                    <li><a href="#">프로젝트 정보</a></li>
+                    <li><a href="#">프로젝트 종료</a></li>
+                </ul>
+            </li>
+            <!-- /collapsible -->
+            <li data-role="collapsible" data-inset="false" data-iconpos="right">
+                <h3>도구</h3>
+                <ul data-role="listview" data-inset="true" class="tablist-left">
+                    <li><a href="#" data-ajax="false">새슬라이드</a></li>
+                    <li data-role="collapsible" data-inset="false" data-iconpos="right">
+                        <h3 id="tool_obj">개체</h3>
+                        <ul data-role="listview" data-inset="true">
+                            <li><a href="#" id="obj_icon">아이콘</a></li>
+                            <li><a href="#" id="obj_char">캐릭터</a></li>
+                            <li><a href="#" id="obj_wordbox">글상자</a></li>
+                            <li><a href="#" id="obj_pic">그림</a></li>
+                            <li><a href="#" id="obj_diagram">도형</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">배경</a></li>
+                    <li><a href="#">애니메이션</a></li>
+                    <li><a href="#">Audio/Video</a></li>
+                </ul>
+            </li>
+            <li data-role="collapsible" data-inset="false" data-iconpos="right">
+                <h3>시뮬레이션</h3>
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#">현재 페이지</a></li>
+                    <li><a href="#">전체 페이지</a></li>
+                </ul>
+            </li>
+            <!-- /collapsible -->
+        </ul>
+    </div>
+    <!-- left panel -->
+    <!-- panel -->
+    <div data-role="panel" id="obj_list_panel" data-display="overlay"
+         data-position-fixed="true" data-position="right">
+        <ul data-role="listview" data-icon="false">
+            <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+            <li data-role="list-divider">개체 목록</li>
+            <li>
+                <div class="ui-grid-a">
+                    <!-- raw1 -->
+                    <div class="ui-block-a"><img src="./img/thumb-01.jpg" width="97%">
+                    </div>
+                    <div class="ui-block-b"><img src="./img/thumb-02.jpg" width="97%">
+                    </div>
+
+                    <!-- raw2 -->
+                    <div class="ui-block-a"><img src="./img/thumb-04.jpg" width="97%">
+                    </div>
+                    <div class="ui-block-b"><img src="./img/thumb-05.jpg" width="97%">
+                    </div>
+
+                    <!-- raw3 -->
+                    <div class="ui-block-a"><img src="./img/thumb-07.jpg" width="97%">
+                    </div>
+                    <div class="ui-block-b"><img src="./img/thumb-08.jpg" width="97%">
+                    </div>
+
+                    <!-- raw4 -->
+                    <div class="ui-block-a"><img src="./img/thumb-07.jpg" width="97%">
+                    </div>
+                    <div class="ui-block-b"><img src="./img/thumb-08.jpg" width="97%">
+                    </div>
+
+                    <!-- raw5 -->
+                    <div class="ui-block-a"><img src="./img/thumb-07.jpg" width="97%">
+                    </div>
+                    <div class="ui-block-b"><img src="./img/thumb-08.jpg" width="97%">
+                    </div>
+
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <!-- /panel -->
+
+    <footer data-role="footer" data-position="fixed">
+        <h1>Pastel Book</h1>
+    </footer>
+</div>
+
+<script src="./framework/jquery-1.10.2.js"></script>
+<script src="./framework/jquery_mobile/jquery.mobile-1.4.0.js"></script>
+<script src="./framework/jquery.jscrollpane.min.js"></script>
+<script src="./framework/custom/custom.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        bindClickEvent();
+        //$('#icon_list').jScrollPane();
+    });
+</script>
+</body>
+</html>
