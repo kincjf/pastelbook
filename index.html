@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>PastelBook</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta name="author" content="Alvaro Trigo Lopez"/>
+    <meta name="description" content="fullPage looping demo."/>
+    <meta name="keywords" content="fullpage,jquery,looping,loop,loopTop,loopBottom,demo"/>
+    <meta name="Resource-type" content="Document"/>
+
+    <link rel="stylesheet" type="text/css"
+          href="./framework/fullpage/jquery.fullPage.custom.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="./framework/custom/index.css"/>
+
+    <script src="./framework/jquery-1.10.2.js"></script>
+    <script src="./framework/jquery-ui-1.10.4.custom.js"></script>
+    <script src="./framework/jquery.ui.touch-punch.js"></script>
+
+    <script src="./framework/fullpage/jquery.fullPage.custom.js"></script>
+    <script src="./framework/fullpage/jquery.leanModal.min.js"></script>
+    <script src="./framework/custom/facebook-sync.js"></script>
+    <!-- jQuery plugin leanModal under MIT License http://leanmodal.finelysliced.com.au/ -->
+    <script>
+        $(document).ready(function () {
+            var pepe = $.fn.fullpage({
+                slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#FFA07A'],
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+                menu: '#menu',
+                loopTop: true,
+                loopBottom: true
+            });
+            $('#loginform').submit(function (e) {
+                return true;
+            });
+            $('#modaltrigger').leanModal({ top: 110, overlay: 0.45, closeButton: ".hidemodal" });
+        });
+    </script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function () {
+        FB.init({appId: '1418643838390630', status: true, cookie: true, xfbml: true});
+
+        FB.Event.subscribe('auth.authResponseChange', function (response) {
+            if (response.status === 'connected') {
+                console.log('Logged in');
+            } else {
+                FB.login();
+            }
+        });
+    };
+
+    (function (d) {
+        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        js.src = "//connect.facebook.net/en_US/all.js";
+        ref.parentNode.insertBefore(js, ref);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- navigator -->
+<ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">PastelBook?</a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">특징(Point)</a></li>
+    <li data-menuanchor="3rdPage"><a href="#3rdPage">사용방법(How)</a></li>
+    <li data-menuanchor="4thPage"><a href="#4thPage">Example</a></li>
+    <li class="flatbtn"><a href="#loginmodal" id="modaltrigger">Login/Join</a></li>
+    <li class="flatbtn">
+        <div onclick="facebookLogin()" style="cursor: pointer;">
+            <img src="./res/fbloginbutton.jpg">
+        </div>
+    </li>
+</ul>
+<!-- fullpage contents -->
+<div class="section" id="section0">
+    <h1>동화&만화(Comic)</h1>
+
+    <h2><span class="color2">e-Book 제작 도우미</span></h2>
+    <img src="./img/logo.png" alt="fullPage" class="white-backcolor"/>
+</div>
+<div class="section" id="section1">
+    <div class="intro">
+        <h1>PastelBook으로</h1>
+
+        <h2>움직이는 <span class="color">e-Book을</span></h2>
+
+        <h2><span class="color1">PC & Mobile에서</span></h2>
+
+        <h1>만들어 보세요!</h1>
+    </div>
+</div>
+<!-- slide content -->
+<div class="section" id="section2">
+    <div class="slide">
+        <div class="intro">
+            <h1>1. 로그인(Login)</h1>
+            <img src="./img/intro1.png" alt="login"/>
+        </div>
+
+    </div>
+    <div class="slide">
+        <div class="intro">
+            <h1>2. 프로젝트 생성</h1>
+            <img src="./img/intro2.png" alt="create empty project"/>
+
+            <p>e-Book 제작을 위한 빈 프로젝트</p>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="intro">
+            <h1>3. 아이콘 삽입</h1>
+            <img src="./img/intro3.png" alt="insert icon"/>
+
+            <p>원하는 아이콘을 선택!</p>
+        </div>
+    </div>
+    <div class="slide">
+        <div class="intro">
+            <h1>원하는 위치에 클릭~</h1>
+            <img src="./img/intro4.png" alt="located icon"/>
+
+            <h2>Complete!</h2>
+        </div>
+    </div>
+</div>
+<!-- end slide content -->
+</div>
+<div class="section" id="section3">
+    <div class="intro">
+        <h1>Example</h1>
+        <img src="./img/example_scene.gif" class="example-scene" alt="example scene"/>
+    </div>
+</div>
+
+<!-- loginmodal-->
+<div id="loginmodal" style="display:none;">
+    <h1 style="font-size: 2em; text-align: center; margin-bottom: 10px;">User Login</h1>
+
+    <form id="loginform" name="loginform" method="post" action="mainview.html">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" class="txtfield" tabindex="1">
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" class="txtfield" tabindex="2">
+
+        <div class="center">
+            <input type="submit" name="joinbtn" id="joinbtn" class="flatbtn-blu hidemodal"
+                   value="Join" tabindex="3">
+            <input type="submit" name="loginbtn" id="loginbtn" class="flatbtn-blu hidemodal"
+                   value="LogIn" tabindex="3" style="float:right;">
+        </div>
+    </form>
+</div>
+</body>
+</html>

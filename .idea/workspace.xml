@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="946ecb41-09d3-4017-b8e8-209d67214663" name="Default" comment="" />
+    <ignored path="pastelbook.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="pastelbook" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="21" selection-start="3634" selection-end="3634" vertical-scroll-proportion="0.0" vertical-offset="908" max-vertical-offset="4356">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file-write.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/file-write.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="5" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="2002">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/custom/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="197" column="22" selection-start="4976" selection-end="4976" vertical-scroll-proportion="0.0" vertical-offset="4042" max-vertical-offset="7216">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="28" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="3718">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainview.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainview.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="33" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="5808">
+              <folding>
+                <marker date="1395735717599" expanded="true" signature="10389:10552" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom-template.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/custom/custom-template.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="264">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom-structure.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework/custom/custom-structure.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="535" column="11" selection-start="18449" selection-end="18709" vertical-scroll-proportion="0.8365897" vertical-offset="11299" max-vertical-offset="14344">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom-animation.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/custom/custom-animation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="7" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="418">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="110" column="37" selection-start="3500" selection-end="3500" vertical-scroll-proportion="0.0" vertical-offset="1518" max-vertical-offset="3366">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facebook-sync.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/custom/facebook-sync.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="32" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="616">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$USER_HOME$/Desktop/파스텔북/01.17/임지우/ui.html" />
+        <option value="$PROJECT_DIR$/mainProjectUI.html" />
+        <option value="$PROJECT_DIR$/framework/custom/icon_list.json" />
+        <option value="$PROJECT_DIR$/framework/icon_list.json" />
+        <option value="$USER_HOME$/Desktop/파스텔북/01.20/메인화면/index.html" />
+        <option value="$USER_HOME$/Desktop/파스텔북/01.17/left_scroll/03-2_Thumb.html" />
+        <option value="$PROJECT_DIR$/json/icon_list.json" />
+        <option value="$USER_HOME$/Downloads/modal-login-jquery/demo/js/jquery.leanModal.min.js" />
+        <option value="$PROJECT_DIR$/framework/custom/custom.css" />
+        <option value="$USER_HOME$/Desktop/파스텔북/fullPage.js-custom/examples/demoPage.css" />
+        <option value="$USER_HOME$/Desktop/파스텔북/fullPage.js-custom/examples/looping.html" />
+        <option value="$USER_HOME$/Desktop/파스텔북/fullPage.js-custom/examples/demoPage.html" />
+        <option value="$PROJECT_DIR$/framework/custom/index.css" />
+        <option value="$PROJECT_DIR$/framework/fullpage/jquery.fullPage.js" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/index1.html" />
+        <option value="$PROJECT_DIR$/framework/custom/custom-template.js" />
+        <option value="$PROJECT_DIR$/framework/custom/package.json" />
+        <option value="$PROJECT_DIR$/Backbone.js-Theater-master/scripts/main.js" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/fileWrite.html" />
+        <option value="$PROJECT_DIR$/framework/file-write.js" />
+        <option value="$PROJECT_DIR$/framework/custom/custom-animation.js" />
+        <option value="$PROJECT_DIR$/framework/custom/custom.js" />
+        <option value="$PROJECT_DIR$/framework/custom/mainview.css" />
+        <option value="$PROJECT_DIR$/mainview.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/framework/custom/facebook-sync.js" />
+        <option value="$PROJECT_DIR$/framework/custom/custom-structure.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pastelbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pastelbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pastelbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pastelbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pastelbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pastelbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pastelbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.lastSelected" value="Errors" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../angularjs_basic" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
+    <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJSON" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebstormProject\pastelbook\framework" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Firefox">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Firefox" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" engineId="firefox" uri="http://localhost:63342/pastelbook/test.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Firefox" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="946ecb41-09d3-4017-b8e8-209d67214663" name="Default" comment="" />
+      <created>1389785512209</created>
+      <updated>1389785512209</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32910052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37566137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32910052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17203514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/framework/custom/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="27" selection-start="5276" selection-end="5276" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8118" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="21" selection-start="3634" selection-end="3634" vertical-scroll-proportion="0.0" vertical-offset="908" max-vertical-offset="4356">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/file-write.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="2002">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/custom/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="22" selection-start="4976" selection-end="4976" vertical-scroll-proportion="0.0" vertical-offset="4042" max-vertical-offset="7216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="56" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="3718">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/custom/facebook-sync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="32" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="56" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="3718">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/custom/facebook-sync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="32" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="41" selection-start="2619" selection-end="2619" vertical-scroll-proportion="0.0" vertical-offset="1302" max-vertical-offset="2860" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="320" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="24" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/jquery-1.10.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4719" column="9" selection-start="129999" selection-end="129999" vertical-scroll-proportion="0.3325444" vertical-offset="103273" max-vertical-offset="215226" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/jquery.jscrollpane.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="12081" selection-end="12081" vertical-scroll-proportion="0.10149942" vertical-offset="0" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/jquery.event.drag-2.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="24" selection-start="648" selection-end="648" vertical-scroll-proportion="-8.056517" vertical-offset="7359" max-vertical-offset="8558" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/jquery.mousewheel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="10" selection-start="2136" selection-end="2136" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="4576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/icon_list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="6" selection-start="6030" selection-end="6030" vertical-scroll-proportion="0.0" vertical-offset="4629" max-vertical-offset="8624" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="17" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.33333334" vertical-offset="1823" max-vertical-offset="20614" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/jquery.ui.touch-punch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="11" selection-start="364" selection-end="364" vertical-scroll-proportion="0.19172113" vertical-offset="0" max-vertical-offset="3432" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/파스텔북/fullPage.js-custom/examples/callback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="34" selection-start="1883" selection-end="1883" vertical-scroll-proportion="1.0669856" vertical-offset="274" max-vertical-offset="2464" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/파스텔북/fullPage.js-custom/examples/examples.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="320" selection-end="320" vertical-scroll-proportion="0.35" vertical-offset="0" max-vertical-offset="880" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/파스텔북/fullPage.js-master/examples/demoPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="35" selection-start="3357" selection-end="3357" vertical-scroll-proportion="2.229665" vertical-offset="226" max-vertical-offset="2684" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/modal-login-jquery/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="627" selection-end="627" vertical-scroll-proportion="0.033391915" vertical-offset="267" max-vertical-offset="1100" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/파스텔북/fullPage.js-custom/examples/demoPage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="12" selection-start="2716" selection-end="2716" vertical-scroll-proportion="0.12" vertical-offset="3960" max-vertical-offset="7700" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/파스텔북/fullPage.js-custom/examples/jquery.leanModal.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="31" selection-start="920" selection-end="920" vertical-scroll-proportion="0.50749713" vertical-offset="0" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/파스텔북/fullPage.js-custom/examples/demoPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="33" selection-start="2322" selection-end="2330" vertical-scroll-proportion="0.33333334" vertical-offset="1235" max-vertical-offset="2684" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/파스텔북/fullPage.js-custom/examples/looping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="49" selection-start="918" selection-end="918" vertical-scroll-proportion="0.62428844" vertical-offset="67" max-vertical-offset="2112" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/custom/custom1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="17" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1232" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/modal-login-jquery/demo/js/jquery.leanModal.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="517" selection-end="517" vertical-scroll-proportion="0.3231334" vertical-offset="0" max-vertical-offset="880" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="259" column="35" selection-start="6312" selection-end="6312" vertical-scroll-proportion="0.5222857" vertical-offset="5241" max-vertical-offset="8558" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/custom/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="58" selection-end="58" vertical-scroll-proportion="0.11743772" vertical-offset="0" max-vertical-offset="562" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/json2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="70" selection-start="6598" selection-end="6598" vertical-scroll-proportion="0.09723757" vertical-offset="2376" max-vertical-offset="26180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileWrite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="376" column="27" selection-start="10623" selection-end="10623" vertical-scroll-proportion="2.9963703" vertical-offset="6621" max-vertical-offset="8756" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backbone.js-Theater-master/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1952" selection-end="1953" vertical-scroll-proportion="0.73187184" vertical-offset="1084" max-vertical-offset="2530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backbone.js-Theater-master/theater.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="580" selection-end="580" vertical-scroll-proportion="0.88" vertical-offset="0" max-vertical-offset="792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backbone.js-Theater-master/scripts/data/movies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="11" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.7773913" vertical-offset="1027" max-vertical-offset="1914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/file-write.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="2002">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/custom/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="282" column="27" selection-start="5276" selection-end="5276" vertical-scroll-proportion="0.0" vertical-offset="5909" max-vertical-offset="8118" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="21" selection-start="3634" selection-end="3634" vertical-scroll-proportion="0.0" vertical-offset="908" max-vertical-offset="4356">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/custom/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="22" selection-start="4976" selection-end="4976" vertical-scroll-proportion="0.0" vertical-offset="4042" max-vertical-offset="7216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/custom/facebook-sync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="32" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/custom/mainview.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="463" column="45" selection-start="10257" selection-end="10257" vertical-scroll-proportion="0.046666667" vertical-offset="10158" max-vertical-offset="10758" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="37" selection-start="3500" selection-end="3500" vertical-scroll-proportion="0.0" vertical-offset="1518" max-vertical-offset="3366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="28" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="3718">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="33" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="5808">
+          <folding>
+            <marker date="1395735717599" expanded="true" signature="10389:10552" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/custom/custom-template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/custom/custom-animation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/custom/custom-structure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="535" column="11" selection-start="18449" selection-end="18709" vertical-scroll-proportion="0.8365897" vertical-offset="11299" max-vertical-offset="14344">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

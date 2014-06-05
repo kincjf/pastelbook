@@ -1,0 +1,5 @@
+{
+    "name": "application-name",
+    "version": "0.0.1"
+}
+[{"groupContainer":[{"x":511,"y":-5,"aniName":null,"aniParam":[],"selected":false,"background":"white","objectContainer":[{"imgSrc":"./img/content/grape.png","aniName":null,"aniParam":[],"selected":false,"background":"white"}],"opacity":1,"width":357,"height":530},{"x":165,"y":-63,"aniName":null,"aniParam":[],"selected":false,"background":"white","objectContainer":[{"imgSrc":"./img/content/grapetree.png","aniName":null,"aniParam":[],"selected":false,"background":"white"}],"opacity":1}],"background":"white","opacity":1}]

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>MAIN Project</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <!--    <link rel="shortcut icon" href="img/icon.png">
+        <link rel="apple-touch-icon" href="img/icon.png">
+        <link rel="apple-touch-startup-image" href="img/startup.png">-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="stylesheet" type="text/css" href="./framework/jquery_mobile/jquery.mobile-1.4.0.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./framework/jquery-ui-1.10.4.custom.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./framework/fullpage/jquery.fullPage.custom.css"/>
+    <link rel="stylesheet" type="text/css" href="./framework/jquery.mobile.simpledialog.css"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./framework/custom/mainview.css"/>
+
+    <style>
+        .tablist-left {
+            display: inline-block;
+        }
+
+        .tablist-content {
+            width: 60%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 5%;
+        }
+
+    </style>
+</head>
+
+<body>
+<div data-role="page" id="demo-page">
+    <div data-role="header" data-position="fixed" data-fullscreen="true">
+        <h1>
+            <span>PastalBook</span>
+        </h1>
+
+        <a href="#left_panel" data-icon="bars" data-iconpos="notext" data-shadow="false"
+           data-iconshadow="false">Menu</a>
+        <a href="./index.html" id="exit_project" data-icon="delete" data-iconpos="notext" data-ajax="false">Exit</a>
+    </div>
+    <!-- /header -->
+    <div id="superContainer">
+        <!-- 개체 삽입 -->
+    </div>
+    <!-- /content -->
+    <!-- left panel -->
+    <div data-role="panel" id="left_panel" data-display="overlay" class="fixed-panel">
+        <ul data-role="listview">
+            <li id="delete_selected_icon" data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+            <li data-role="collapsible" data-inset="false" data-iconpos="right">
+                <h3>관리</h3>
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#" id="save_project">프로젝트 저장</a></li>
+                    <li><a href="#" id="export_project">프로젝트 내보내기</a></li>
+                    <li><a href="#" id="import_project">프로젝트 불러오기</a></li>
+                    <li><a href="#">인쇄</a></li>
+                    <li><a href="#">프로젝트 정보</a></li>
+                    <li><a href="#">프로젝트 종료</a></li>
+                </ul>
+            </li>
+            <!-- /collapsible -->
+            <li data-role="collapsible" data-inset="false" data-iconpos="right">
+                <h3>도구</h3>
+                <ul data-role="listview" data-inset="true" class="tablist-left">
+                    <li><a href="#" id="add_slide" data-ajax="false">새슬라이드</a></li>
+                    <li data-role="collapsible" data-inset="false" data-iconpos="right">
+                        <h3 id="tool_obj" class="obj-list" role="obj-all">개체</h3>
+                        <ul data-role="listview" data-inset="true" class="obj-list">
+                            <li><a href="#icon" id="obj_icon" role="icon">아이콘</a></li>
+                            <li><a href="#character" id="obj_char" role="character">캐릭터</a></li>
+                            <li><a href="#textbox" id="obj_textbox" role="textbox">글상자</a></li>
+                            <li><a href="#picture" id="obj_pic" role="picture">그림</a></li>
+                            <li><a href="#diagram" id="obj_diagram" role="diagram">도형</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">배경</a></li>
+                    <li><a href="#">애니메이션</a></li>
+                    <li><a href="#">Audio/Video</a></li>
+                </ul>
+            </li>
+            <li data-role="collapsible" data-inset="false" data-iconpos="right">
+                <h3>시뮬레이션</h3>
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#">현재 페이지</a></li>
+                    <li><a href="#">전체 페이지</a></li>
+                </ul>
+            </li>
+            <!-- /collapsible -->
+        </ul>
+    </div>
+    <!-- left panel -->
+    <!-- icon panel -->
+    <div data-role="panel" id="obj_list_panel" data-display="overlay"
+         data-position-fixed="true" data-position="right" class="fixed-panel">
+        <ul data-role="listview" data-icon="false">
+            <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+            <li data-role="list-divider">개체 목록</li>
+            <li>
+                <div class="ui-grid-a" id="icon_view">
+                    <!-- 갯수만큼 출력된다. -->
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <!-- /icon panel -->
+    <!-- animation panel -->
+    <div data-role="panel" id="animation_list_panel" data-display="overlay"
+         data-position-fixed="true" data-position="right" class="fixed-panel">
+        <ul data-role="listview" data-icon="false">
+            <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+            <li data-role="list-divider">애니메이션 설정 목록</li>
+            <li id="animation_view">
+                <div class="ui-field-contain">
+                    <label for="animation_name" class="float-none">애니메이션 이름</label>
+                    <input type="text" name="animation-name" id="animation_name"
+                           placeholder="애니메이션 이름을 정해주세요!" value="">
+                </div>
+                <div class="ui-field-contain">
+                    <label for="animation_toX" class="float-none">X좌표</label>
+                    <input type="number" name="number" pattern="[0-9]*" id="animation_toX"
+                           value="" placeholder="움직일 X 좌표">
+                </div>
+                <div class="ui-field-contain">
+                    <label for="animation_toY" class="float-none">Y좌표</label>
+                    <input type="number" name="number" pattern="[0-9]*" id="animation_toY"
+                           value="" placeholder="움직일 Y 좌표">
+                </div>
+                <div class="ui-field-contain">
+                    <label for="animation_easingX" class="float-none">움직임 - X</label>
+                    <input type="text" name="text-basic" id="animation_easingX" value="">
+                </div>
+                <div class="ui-field-contain">
+                    <label for="animation_easingY" class="float-none">움직임 - Y</label>
+                    <input type="text" name="text-basic" id="animation_easingY" value="">
+                </div>
+                <div class="ui-field-contain">
+                    <label for="animation_duration" class="float-none">이동시간</label>
+                    <input type="number" name="number" pattern="[0-9]*" id="animation_duration"
+                           value="" placeholder="움직이는 시간">
+                </div>
+                <div class="ui-field-contain">
+                    <input id="add_animation" type="button" data-icon="plus" value="애니메이션 추가">
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- /animation panel -->
+
+    <footer data-role="footer" data-position="fixed" data-fullscreen="true" class="footer">
+    </footer>
+    <!-- //NOTE: blankContent is set to TRUE, and the content goes IN the div.-->
+    <div id="file_import_dialog" style="display: none;"
+         data-options='{"mode":"blank","blankContent":true,"blankContentAdopt":true,"headerText":"Select Project File","headerClose":false}'>
+
+        <div id="#file_import_container" data-role="fieldcontain">
+            <span class="ui-btn ui-icon-plus ui-btn-icon-left ui-corner-all fileinput-button">
+            <span>선택된 파일 없음</span>
+            <input type="file" id="file_input" name="files[]" multiple data-role="none"/>
+            </span>
+            <a id="file_input_ok" rel='ok' data-role='button' href='#'> OK </a>
+            <a rel='close' data-role='button' href='#'> close </a>
+        </div>
+    </div>
+
+    <div id="file_export_dialog" style="display: none;"
+         data-options='{"mode":"blank","blankContent":true,"blankContentAdopt":true,"headerText":"Select Project File","headerClose":false}'>
+
+        <div id="file_export_container" data-role="fieldcontain" style="text-align: center;">
+            <div id="saved_project_content" contenteditable="true" style="display:none;" >empty - plz input Text</div>
+            <input type="text" value="MyFile.json" placeholder="filename.json" />
+            <button id="create_file">Create file</button>
+            <output><a download="MyFile.json" href="" data-downloadurl="" draggable="true" class="dragout" data-disabled="true">Downloaded</a></output>
+            <aside id="download-help">
+                <ul>
+                    <li>[프로젝트 저장]으로 저장한 애니메이션중 가장 최근 프로젝트가 저장됩니다.</li>
+<!--                    <li>이름을 입력해서 파일로 저장할 수 있습니다.</li>
+                    <li>드래그로 원하는 위치에 파일을 저장할 수 있습니다.</li>
+                    <li>단 이름을 입력하지 않거나 존재하지 않을 경우</li>-->
+                    <li>브라우저에서 지원하지 않을경우 text 내용을 저장하세요.</li>
+                    <li>Browser support: right now, only Chrome dev channel (14.0.835.15+) supports this attribute.</li>
+                </ul>
+            </aside>
+            <a rel='close' data-role='button' href='#'> close </a>
+        </div>
+    </div>
+</div>
+<script src="./framework/jquery-1.10.2.js"></script>
+<script src="./framework/jquery_mobile/jquery.mobile-1.4.0.js"></script>
+
+<script src="./framework/jquery-ui-1.10.4.custom.js"></script>
+<script src="./framework/jquery.ui.touch-punch.js"></script>
+<script src="./framework/fullpage/jquery.fullPage.custom.js"></script>
+<script src="./framework/jquery.scrollTo-1.4.3.1.js"></script>
+
+<script src="./framework/jquery.mobile.simpledialog2.js"></script>
+
+<script src="./framework/json2.js"></script>
+<script src="./framework/file-write.js"></script>
+
+<script src="./framework/underscore.js"></script>
+<script src="./framework/backbone.js"></script>
+
+<!--<script src="./framework/custom/custom-template.js"></script>-->
+<script id="slide_template" type="text/template">
+    <div data-role="content" class="ui-content">
+        <div class="control delete-slide-btn"/>
+        <div class="control change-background-btn"/>
+        <div class="control change-bgborder-btn"/>
+    </div>
+</script>
+
+<script id="navigator_template" type="text/template">
+    <a href="#<%= nav_id %>" class="ui-btn ui-btn-inline"><%= length %></a>
+</script>
+<!--<script id="slidemenu_template" type="text/template">
+    <div class="h-padding30 slide">
+        <div class="control delete hide"/>
+        <div class="control change-color hide"/>
+        <div class="control resize hide"/>
+    </div>
+</script>-->
+<!--<script id="group_template" type="text/template">
+    <a class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-notext" title="Delete">delete</a>
+    <a class="ui-btn ui-corner-all ui-icon-star ui-btn-icon-notext" title="Set Animation">Set Animation</a>
+    <a class="ui-btn ui-corner-all ui-icon-gear ui-btn-icon-notext" title="Set Background">Set Background</a>
+</script>-->
+<script id="textbox_"></script>
+
+<!-- Custom JS -->
+<!--<script src="./framework/custom/custom-animation.js"></script>-->
+<script src="./framework/custom/custom-structure.js"></script>
+<script src="./framework/custom/custom.js"></script>
+
+<script type="text/javascript">
+    var slideContainer, documentView;
+    // 최상위 Collection, View(#superContainer)
+
+    $(document).ready(function () {
+        bindEvents();
+
+        slideContainer = new nmapp.SlideContainer();
+        documentView = new nmapp.DocumentView({
+            collection: slideContainer
+        }).render();
+
+        // 슬라이드 하나정도는 있어야되니깐 로딩..
+        slideContainer.add(new nmapp.SlideManager());
+    });
+</script>
+</body>
+</html>

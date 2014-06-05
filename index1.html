@@ -1,0 +1,147 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery UI Resizable - Synchronous resize</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <style>
+        #resizable { background-position: top left; }
+        #resizable, #also, #also1 { width: 150px; height: 120px; padding: 0.5em; }
+        #resizable h3, #also h3, #also1 h3 { text-align: center; margin: 0; }
+        #also, #also1 { margin-top: 1em; }
+    </style>
+    <script>
+        $(function() {
+            $( "#resizable" ).resizable({
+                alsoResize: ".ui-widget-content"
+            });
+            $( "#also" ).resizable();
+        });
+    </script>
+</head>
+<body>
+
+<div id="resizable" class="ui-widget-header">
+    <h3 class="ui-state-active">Resize</h3>
+</div>
+
+<div id="also" class="ui-widget-content">
+    <h3 class="ui-widget-header">will also resize</h3>
+</div>
+
+<div id="also1" class="ui-widget-content">
+    <h3 class="ui-widget-header">will also resize</h3>
+</div>
+
+
+</body>
+</html>
+<!--
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery UI Resizable - Synchronous resize</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="./framework/underscore.js"></script>
+    <script src="./framework/backbone.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <style>
+        #resizable { background-position: top left; }
+        #resizable, #also, #also1 { width: 150px; height: 120px; padding: 0.5em; }
+        #resizable h3, #also h3, #also1 h3 { text-align: center; margin: 0; }
+        #also, #also1 { margin-top: 1em; }
+    </style>
+    <script>
+        $(function() {
+            $( "#resizable" ).resizable({
+                alsoResize: ".ui-widget-content"
+            });
+            $( "#also" ).resizable();
+        });
+    </script>
+</head>
+
+<script type="text/template" id="car-default-template">
+    <h2>Car details:</h2>
+    <ul>
+        <li>Description: <%= description %></li>
+        <li>Doors: <%= doors %></li>
+        <li>Gears: <%= gears %></li>
+
+    </ul>
+</script>
+<script>
+    var Car = Backbone.Model.extend({
+        defaults: {
+            description: "Saloon",
+            gears: 5,
+            doors: 4
+        },
+        events: {
+            "click h1": function() {
+                this.$('h1').append('1');
+            },
+            "click div[data-role='content']": function(e) {
+                var content = this.$el.find("div[data-role='content']");
+                var offset = content.offset();
+
+                var x_axis = e.clientX - offset.left;
+                var y_axis = e.clientY - offset.top;
+
+                insertIcon(content, x_axis, y_axis);
+            },
+            "click .delete-slide-btn": 'deleting',
+            "click .change-bgcolor-btn": function(e) {
+                this.model.set({ color: prompt('Enter color value', this.model.get('bgColor')) });
+            }
+            // mouse 클릭시 아이콘 개체 삽입
+        }
+    });
+
+    var HatchbackCar = Car.extend({
+        defaults: {
+            description: "Hatchback",
+            doors: 3
+        },
+        events: {
+            "click h1": function() {
+                this.$('h1').append('1');
+            },
+            "click h2": function() {
+                this.$('h1').append('1');
+            }
+        }
+    });
+    // Uses _.defaults to allow the overriding of default values in subclass
+    _.defaults(HatchbackCar.prototype.defaults, Car.prototype.defaults);
+
+/*    var CarView = Backbone.View.extend({
+        el: $('#car'),
+        template: _.template($('#car-default-template').html()),
+
+        initialize: function() {
+            _.bindAll(this);
+            this.render();
+        },
+        render: function() {
+            $(this.el).html(this.template(this.model.toJSON()));
+
+        }
+    });
+
+    var carView = new CarView({
+        model: new HatchbackCar()
+    });*/
+</script>
+<body>
+<div id="car"></div>
+</body>
+</html>-->

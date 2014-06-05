@@ -1,0 +1,119 @@
+h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0;
+}
+
+p.bubble {
+	position: relative;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	margin: 60px auto;
+	background-color: #fff;
+	border: 8px solid #666;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 2px 2px 4px #888;
+	-moz-box-shadow: 2px 2px 4px #888;
+	box-shadow: 2px 2px 4px #888;
+}
+
+p.thoughtleft {
+	width: 130px;
+	line-height: 100px;
+	-webkit-border-radius: 108px;
+	-moz-border-radius: 108px;
+	border-radius: 108px;
+}
+
+p.bubble:before, p.bubble:after {
+	content: ' ';
+	position: absolute;
+	width: 30;
+	height: 30;
+}
+
+p.speechleft:before {
+	left: 30px;
+	top: 100px;
+	border: 25px solid;
+	border-color: #666 transparent transparent #666;
+}
+
+p.speechleft:after {
+	left: 38px;
+	top: 100px;
+	border: 15px solid;
+	border-color: #fff transparent transparent #fff;
+}
+
+p.thoughtleft:before, p.thoughtleft:after {
+	left: 10px;
+	top: 80px;
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border: 8px solid #666;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+}
+
+p.thoughtleft:after {
+	width: 20px;
+	height: 20px;
+	left: 5px;
+	top: 120px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+}
+
+p.thoughtright {
+	width: 130px;
+	line-height: 100px;
+	-webkit-border-radius: 108px;
+	-moz-border-radius: 108px;
+	border-radius: 108px;
+}
+
+p.speechright:before {
+
+	left: 105px;
+	top: 100px;
+	border: 25px solid;
+	border-color: #666 #666 transparent transparent;
+}
+
+p.speechright:after {
+
+	left: 118px;
+	top: 100px;
+	border: 15px solid;
+	border-color: #fff #fff transparent transparent;
+}
+
+p.thoughtright:before, p.thoughtright:after {
+	left: 50px;
+	top: 80px;
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border: 8px solid #666;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	border-radius: 28px;
+}
+
+p.thoughtright:after {
+	width: 20px;
+	height: 20px;
+	left: 75px;
+	top: 120px;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+}
