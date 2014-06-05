@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <title>MAIN Project</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <!--    <link rel="shortcut icon" href="img/icon.png">
+        <link rel="apple-touch-icon" href="img/icon.png">
+        <link rel="apple-touch-startup-image" href="img/startup.png">-->
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="stylesheet" href="./framework/jquery_mobile/jquery.mobile-1.4.0.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./framework/jquery.jscrollpane.css"/>
+    <link rel="stylesheet" href="./framework/custom/custom.css"/>
+    <style type="text/css">
+        .table {
+            height: 50px;
+            line-height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+<div data-role="page" data-theme="b" data-fullscreen="true">
+    <header data-role="header" data-position="inline">
+        <h1>프로젝트 제작 UI</h1>
+    </header>
+    <section data-role="content">
+        <div class="ui-body ui-body-a">
+            <div class="ui-body ui-body-b">
+                <!-- navigator -->
+                <div data-role="navbar" data-grid="b">
+                    <ul>
+                        <li class="nav-manage"><a href="#">관리</a></li>
+                        <li class="nav-tool"><a href="#">도구</a></li>
+                        <li class="nav-simulate"><a href="#">시뮬레이션</a></li>
+                    </ul>
+                </div>
+                <div id="sub_nav" data-role="navbar" data-grid="d">
+                    <ul>
+                        <li class="new-slide"><a href="#">새슬라이드</a></li>
+                        <li class="new-obj"><a href="#">개체</a></li>
+                        <li class="new-background"><a href="#">배경</a></li>
+                        <li class="new-ani"><a href="#">애니메이션</a></li>
+                        <li class="new-av"><a href="#">Audio/Video</a></li>
+                    </ul>
+                    <ul class="tool-obj-sub">
+                        <li><a href="#">아이콘</a></li>
+                        <li><a href="#">캐릭터</a></li>
+                        <li><a href="#">글상자</a></li>
+                        <li><a href="#">그림</a></li>
+                        <li><a href="#">도형</a></li>
+                    </ul>
+                </div>
+                <!-- /navbar -->
+            </div>
+            <!-- -->
+            <div class="ui-body ui-grid-a">
+                <div class="ui-block-a" id="left_icons">
+                    <!-- left table -->
+                    <div class="ui-grid-a">
+                        <!-- raw1 -->
+                        <div class="ui-block-a"><img src="./img/thumb-01.jpg">
+                        </div>
+                        <div class="ui-block-b"><img src="./img/thumb-02.jpg">
+                        </div>
+                        <!-- raw2 -->
+                        <div class="ui-block-a"><img src="./img/thumb-04.jpg">
+                        </div>
+                        <div class="ui-block-b"><img src="./img/thumb-05.jpg">
+                        </div>
+                        <!-- raw3 -->
+                        <div class="ui-block-a"><img src="./img/thumb-07.jpg">
+                        </div>
+                        <div class="ui-block-b"><img src="./img/thumb-08.jpg">
+                        </div>
+                        <!-- raw4 -->
+                        <div class="ui-block-a"><img src="./img/thumb-07.jpg">
+                        </div>
+                        <div class="ui-block-b"><img src="./img/thumb-08.jpg">
+                        </div>
+                        <!-- raw5 -->
+                        <div class="ui-block-a"><img src="./img/thumb-07.jpg">
+                        </div>
+                        <div class="ui-block-b"><img src="./img/thumb-08.jpg">
+                        </div>
+
+                        <div class="ui-block-a"><img src="./img/thumb-07.jpg">
+                        </div>
+                        <div class="ui-block-b"><img src="./img/thumb-08.jpg">
+                        </div>
+
+                        <div class="ui-block-a"><img src="./img/thumb-07.jpg">
+                        </div>
+                        <div class="ui-block-b"><img src="./img/thumb-08.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="ui-block-b ui-body-e" id="main_windows">
+                    <!-- Main windows -->
+                    <div>asdfasdf</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer data-role="footer">
+        <h1>Pastel Book</h1>
+    </footer>
+</div>
+
+<script src="./framework/jquery-1.10.2.js"></script>
+<script src="./framework/jquery_mobile/jquery.mobile-1.4.0.js"></script>
+<script src="./framework/jquery.jscrollpane.min.js"></script>
+<script src="./framework/custom/custom.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#left_icons').jScrollPane();
+    });
+</script>
+</body>
+</html>
